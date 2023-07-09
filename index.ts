@@ -1,1 +1,1 @@
-import { getOctokit } from "@actions/github";
+console.log("1");
