@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "swc index.ts"
+    "build": "swc index.ts -d dist",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",

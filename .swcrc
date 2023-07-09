@@ -1,9 +1,11 @@
 {
   "jsc": {
     "parser": {
-      "syntax": "typescript"
+      "syntax": "ecmascript",
+      "jsx": false,
+      "dynamicImport": false
     },
     "target": "es5"
   },
-  "isModule": false
+  "isModule": true
 }
