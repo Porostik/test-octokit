@@ -14,4 +14,4 @@ jobs:
         uses: Porostik/release-action@debug
         with:
           api_token: ${{ secrets.api_token }}
-          pull_name: ${{ github.event.pull_request.title }}
+          pull_name: ${{ github.event.pull_request }}
