@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Release
-        uses: Porostik/release-action@master
+        uses: Porostik/release-action@debug
         with:
           api_token: ${{ secrets.api_token }}
           pull_name: ${{ github.event.pull_request.title }}
